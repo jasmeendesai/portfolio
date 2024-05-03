@@ -1,0 +1,62 @@
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 999;
+}
+.container button{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: transparent;
+    border: none;
+    color: var(--text);
+}
+
+.detailbox{
+    background-color: #010e1b;
+    border: 0.1px solid rgba(106, 106, 106, 0.915);
+    margin: 5% 10%;
+    padding: 2% 5%;
+    height: 80vh;
+}
+
+.detailbox h2{
+    color: var(--linkText);
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+
+.detailbox ul{
+    font-family: "Open Sans", sans-serif;
+    color: var(--text);
+    position: relative;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    padding-left: 50px;
+    margin-bottom: 0.5rem;
+}
+
+.detailbox a{
+    color: var(--linkText);
+}
+
+
+
+.detailbox p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 2;
+}

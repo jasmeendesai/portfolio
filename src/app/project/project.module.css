@@ -1,0 +1,174 @@
+.container{
+    bottom: auto;
+    padding: 0 5%;
+}
+
+.project{
+
+    display: flex;
+
+    flex-direction: column;
+    padding: 10px 30px;
+    gap: 10px;
+}
+
+.project_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.project_header h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project_header hr{
+    top: 10px;
+    bottom: 0;
+    width: 10%;
+    height: 0.5px;
+}
+
+.project_box{
+    /* background-color: yellow; */
+    margin: 0 30px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.project_boxTop{
+    /* background-color: purple; */
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.project_boxTop button{
+    padding: 8px 16px 10px 16px;
+    margin: 0 3px 10px 3px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+    color: var(--text);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 4px;
+}
+
+.project_boxTop button:hover {
+    background-color: #1c7d32;
+}
+
+.project_boxBottom{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    padding: 10px 0 10px 10px;
+    padding-left: 10px;
+    gap: 20px;
+    /* background-color: yellow; */
+    width: 100%;
+    height: auto;
+    
+}
+
+.project_box_item{
+    width: 31.8%;
+    height: 200px;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.project_box_item h4{
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+/* .project_box_item_box h4{
+
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+} */
+
+.project_box_item_boxImg{
+    position: relative;
+}
+
+.img{
+    background-color: #fff;
+    width: 360px;
+    height: 160px;
+}
+
+/* .project_box_item_modal1{
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 360px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+
+  outline: 3px ridge white;
+  outline-offset: -10px; 
+  outline-style: inset;
+} */
+
+.project_box_item_modal1 {
+    position: absolute; 
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: #e83434f3; */
+    /* opacity: 1; */
+    width: 360px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+
+.project_box_item_modal1::before, .project_box_item_modal1::after {
+    content: ""; /* Required for the pseudo-elements to show */
+    position: absolute;
+    border: 3px solid white; /* Adjust the border color and width as needed */
+}
+
+.project_box_item_modal1::before {
+    top: 10px;
+    left: 10px;
+    width: 15%; /* Adjust the length of the horizontal line */
+    height: 30%; /* Adjust the length of the vertical line */
+    border-right: none;
+    border-bottom: none;
+}
+
+.project_box_item_modal1::after {
+    right: 10px;
+    bottom: 10px;
+    width: 15%; /* Adjust the length of the horizontal line */
+    height: 30%; /* Adjust the length of the vertical line */
+    border-left: none;
+    border-top: none;
+}

@@ -1,0 +1,43 @@
+:root{
+  --bg : #010b1e;
+  --bgSoft : #09203a;
+  --text : #fff;
+  --linkText : limegreen;
+  --boxHover : #092a50;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: var(--bg);
+  color: var(--text);
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* a:hover {
+  color: var(--linkText);
+} */
+
+.container{
+
+  width: 100%;
+
+  margin: auto;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* jcsb for homepage */
+  gap: 5px;
+}
+

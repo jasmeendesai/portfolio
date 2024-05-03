@@ -1,0 +1,20 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.Cactive{
+    color: var(--linkText);
+}
+
+.active {
+    width: 30px;
+    height: 2px;
+    background-color: #9e7f25;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+  

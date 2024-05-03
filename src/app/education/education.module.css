@@ -1,0 +1,78 @@
+.container{
+    bottom: auto;
+    padding: 0 5%;
+}
+
+.education{
+
+    display: flex;
+
+    flex-direction: column;
+    padding: 10px 30px;
+    gap: 30px;
+}
+
+.education_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.education_header h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education_header hr{
+    top: 10px;
+    bottom: 0;
+    width: 10%;
+    height: 0.5px;
+}
+
+.education_description{
+    flex: 1;
+    display: flex;
+    /* justify-content: space-around; */
+    /* background-color: yellow; */
+    gap: 30px;
+
+    padding: 0 30px;
+}
+
+.education_college {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    gap: 5px;   
+    background-color: var(--bgSoft);
+    min-height: auto;
+}
+
+.education_college:hover {
+
+    background-color: var(--boxHover);
+
+}
+
+.education_collge_Info{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8rem;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.education_collge_Info h5,
+.education_collge_Info h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.education_collge_Info p{
+    font-size: 14px;
+    font-style: italic;
+}

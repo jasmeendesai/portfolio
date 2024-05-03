@@ -1,0 +1,33 @@
+.container{
+    bottom: auto;
+    padding: 0 5%;
+}
+
+.skill{
+
+    display: flex;
+
+    flex-direction: column;
+    padding: 10px 30px;
+    gap: 30px;
+}
+
+.skill_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.skill_header h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill_header hr{
+    top: 10px;
+    bottom: 0;
+    width: 10%;
+    height: 0.5px;
+}
