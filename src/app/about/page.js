@@ -2,6 +2,7 @@ import style from './about.module.css'
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 import profile from '@/assets/profile.jpg'
 import Image from 'next/image';
+import Header from '@/components/header/Header';
 // import profile from './img.png'
 
 
@@ -9,13 +10,10 @@ function About() {
   return (
     <div className={style.container}>
       <div className={style.about}>
-        <div className={style.about_header}>
-          <h2>ABOUT</h2>
-          <hr />
-        </div>
+        <Header title={"ABOUT"}/>
         <div className={style.about_description}>
           <div className={style.about_img}>
-            <Image src={profile} alt="" />
+            <Image className={style.image} src={profile} alt="" />
           </div>
           <div className={style.about_description_text}>
             <div className={style.about_description_textTop}>

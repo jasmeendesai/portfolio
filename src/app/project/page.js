@@ -6,6 +6,7 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import { useState } from 'react';
 import ProjectModal from '@/components/projectModal/ProjectModal';
 import { projects } from '@/utils/variable';
+import Header from '@/components/header/Header';
 // import { useState } from 'react';
 
 
@@ -23,10 +24,7 @@ function ProjectPage() {
   return (
     <div className={style.container}>
     <div className={style.project}>
-      <div className={style.project_header}>
-        <h2>PROJECTS</h2>
-        <hr />
-      </div>
+      <Header title={"PROJECTS"} />
       <div className={style.project_box}>
         <div className={style.project_boxTop}>
           <button onClick={() => handleFilter("all")}>ALL</button>

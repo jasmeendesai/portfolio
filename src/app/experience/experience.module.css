@@ -12,28 +12,7 @@
     gap: 30px;
 }
 
-.experience_header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    padding: 0 30px;
-}
-
-.experience_header h2{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.experience_header hr{
-    top: 10px;
-    bottom: 0;
-    width: 10%;
-    height: 0.5px;
-}
-
 .experience_description {
-    /* background-color: yellow; */
     margin: 0 30px;
 }
 
@@ -76,4 +55,60 @@
     font-weight: 300;
     font-size: 16px;
     padding: 0 30px;
+}
+
+@media screen and (max-width: 767px){
+    .container{
+        padding: 0 2px;
+    }
+
+    .experience{
+       
+        padding: 1px 0px;
+
+    }
+
+    .experience_description{
+        margin: 0 5px;
+    }
+
+    .experience_box {
+        
+        padding: 20px;
+    }
+
+    .experience_box ul{
+        line-height: 1.5;
+        padding: 0 20px;
+        text-align :justify;
+    }
+}
+
+
+/* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .experience_box ul{
+
+        font-size: 20px;
+        line-height: 2rem;
+        text-align: justify;
+    }
+
+    .experience_box p{
+
+        font-size: 20px;
+
+    }
+
+
+    .experience_box h4{
+
+        font-size: 24px;
+
+    }
+    .experience_box h4{
+        line-height: 2rem;
+        font-size: 30px;
+    }
+
 }

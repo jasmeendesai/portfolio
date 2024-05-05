@@ -1,4 +1,4 @@
-import {socialMediaApp, iNoteBook, openToIntern, productManagement, bookManagement, textUtil, newsApp, urlShortner, bloggingSite} from '@/assets/index.js';
+import {socialMediaApp, iNoteBook, openToIntern, productManagement, bookManagement, textUtil, newsApp, urlShortner, bloggingSite, js, nodeJs, html, css, mongoDb, expressJs, reactJs, nextJs, bootStrap, scss, mui, git, aws, postman} from '@/assets/index.js';
 
 const paths = [
     {
@@ -184,10 +184,65 @@ const projects = [
 ]
 
 
-// const skills = [
+const skills = [
+    {
+        name : "Java Script",
+        img : js
+    },
+    {
+        name : "HTML",
+        img : html
+    },
+    {
+        name : "CSS",
+        img : css
+    },
+    {
+        name : "ReactJs",
+        img : reactJs
+    },
+    {
+        name : "NodeJs",
+        img : nodeJs
+    },
+    {
+        name : "ExpressJs",
+        img : expressJs
+    },
+    {
+        name : "MongoDB",
+        img : mongoDb
+    },
+    {
+        name : "NextJs",
+        img : nextJs
+    },
+    {
+        name : "BootStrap",
+        img : bootStrap
+    },
+    {
+        name : "scss",
+        img : scss
+    },
+    {
+        name : "MUI",
+        img : mui
+    },
+    {
+        name : "Git",
+        img : git
+    },
+    {
+        name : "AWS",
+        img : aws
+    },
+    {
+        name : "Postman",
+        img : postman
+    },
+]
 
-// ]
 
 
-
-module.exports = {paths, projects}
+module.exports = {paths, projects, skills}

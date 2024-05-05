@@ -2,20 +2,20 @@ import Image from 'next/image'
 import style from './education.module.css'
 import collegeImg from '@/assets/collegeImg.jpg'
 import pucClgImg from '@/assets/pucClgImg.jpg'
+import Header from '@/components/header/Header'
 
 
 function EducationPage() {
   return (
     <div className={style.container}>
       <div className={style.education}>
-        <div className={style.education_header}>
-          <h2>EDUCATION</h2>
-          <hr />
-        </div>
+        <Header title={"EDUCATION"}/>
+
         <div className={style.education_description}>
           <div className={style.education_college}>
             
-          <Image src={collegeImg} alt="" style={{background : "white", width:"100%" , height : "40%"}}/>
+          <Image className={style.image} src={collegeImg} alt="" 
+          />
           <div className={style.education_collge_Info}>
             <h4>KLE's Dr. M S Sheshgiri College of Engineering and Technology, Udyambag, Belagavi. Karnataka</h4>
             <p>B.E in Electrical and Electronics Engineering</p>

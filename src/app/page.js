@@ -1,3 +1,5 @@
+"use client"
+
 // import Image from "next/image";
 import Links from "@/components/navbar/links/Links";
 import style from "./page.module.css";
@@ -5,13 +7,19 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 
+
 export default function HomePage() {
+
+
   return (
 
       <div className={style.container}>
         <h1>Jasmeen Desai</h1>
         <p>I am a developer</p>
-        <Links/>
+        <div className={style.links}>
+          <Links/>
+        </div>
+        
         <div className={style.socialMedia}>
           <div className={style.icon}>
             <a href="https://linkedin.com/in/jasmeen-desai-4b1770275"><LinkedInIcon fontSize="medium"/></a>           

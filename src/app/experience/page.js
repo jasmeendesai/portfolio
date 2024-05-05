@@ -1,13 +1,11 @@
+import Header from "@/components/header/Header";
 import style from "./experience.module.css";
 
 function ExperiencePage() {
   return (
     <div className={style.container}>
       <div className={style.experience}>
-        <div className={style.experience_header}>
-          <h2>EXPERIENCE</h2>
-          <hr />
-        </div>
+        <Header title={"EXPERIENCE"} />
         <div className={style.experience_description}>
           <div className={style.experience_box}>
             <h4>FunctionUp</h4>

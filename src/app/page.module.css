@@ -12,6 +12,10 @@
     transition: all 0s ease-in-out 0s
 }
 
+/* .menu{
+    display: none;
+} */
+
 .container h1, 
 .container p{
     /* margin-top: 20px;
@@ -53,7 +57,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.1);;
+    background-color: rgba(255, 255, 255, 0.1);
     width: 150px;
     border-radius: 30px;
     outline: 1px solid gray;
@@ -67,7 +71,6 @@
 
     background-color: transparent;
     color: var(--text);
-
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -76,4 +79,39 @@
     border: none;
     border-radius: 30px;
 
+}
+
+/* Mobile Devices */
+
+@media screen and (max-width: 767px){
+    .container {
+        position: relative;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 20% 10%;
+    }
+
+    .container h1{
+        font-size: 4rem;
+        font-weight: 600;       
+    }
+
+    .button{
+        margin: 10px 10px;
+        
+    }
+
+}
+
+
+/* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container{
+        gap: 40px;
+        margin : 25% auto;
+        padding: 30px;
+    }
 }

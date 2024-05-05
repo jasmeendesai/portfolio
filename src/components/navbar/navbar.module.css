@@ -10,3 +10,42 @@
     font-size: 36px;
     font-weight: bold;
 }
+
+/* Mobile Devices */
+
+@media screen and (max-width: 767px){
+    .container{
+        /* display: flex; */
+        /* background-color: #fff; */
+
+        width: 100%;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+
+    .logo{
+        /* position: fixed;
+        top: 25px;
+        left: 20px; */
+        font-size: 30px;
+        /* background-color: #fff; */
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        padding: 10px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+}
