@@ -38,6 +38,6 @@ a {
   display: flex;
   flex-direction: column;
   /* jcsb for homepage */
-  gap: 5px;
+  /* gap: 5px; */
 }
 
