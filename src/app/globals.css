@@ -24,9 +24,9 @@ a {
   color: inherit;
 }
 
-/* a:hover {
+a:hover {
   color: var(--linkText);
-} */
+}
 
 .container{
 
